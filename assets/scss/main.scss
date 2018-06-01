@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+@import '~/assets/scss/_reset.scss';
+@import '~/assets/scss/global/_global.scss';
+@import '~/assets/scss/global/_partials.scss';
+
+// -----------------------------------------------------------------
+// Main Layout
+// -----------------------------------------------------------------
+
+body {
+	background-color: $color-background--page;
+	padding-bottom: 7rem;
+	@include media-query(max,$bp-small) {
+		padding-bottom: 3rem;
+	}
+}
+
+// -----------------------------------------------------------------
+// Transitions
+// -----------------------------------------------------------------
+
+.page-enter-active, .page-leave-active {
+	transition: opacity $fade-in-time ease-in-out, transform $fade-in-time ease-in-out;
+}
+
+.page-enter, .page-leave-active {
+	opacity: 0;
+	transform: translate(0, 2rem);
+}
+
+// -----------------------------------------------------------------
+// Typography
+// -----------------------------------------------------------------
+
+// Avoid FOUT
+.wf-loading {
+	h1, h2, h3, figcaption, p, a, dl, ul {
+		visibility: hidden;
+	}
+}
+.wf-active {
+	h1, h2, h3, figcaption, p, a, dl, ul {
+		visibility: visible;
+	}
+}
+
+*::selection {background: #FCE40D; color: #000;}
+*::-moz-selection {background: #FCE40D; color: #000;}
+
+html {
+	@extend %font-size--body;
+}
+
+body {
+	@extend %font-family--body;
+	color: $color-font--body;
+	text-rendering: optimizeLegibility;
+	font-feature-settings: "kern";
+	-webkit-font-feature-settings: "kern";
+	-moz-font-feature-settings: "kern";
+	-moz-font-feature-settings: "kern=1";
+}
+
+h1,h2,h3 {
+	@extend %font-family--headings;
+}
+
+strong {
+	font-weight: 700;
+}
+
+a {
+	padding-bottom: 0.5em;
+	color: $color-font--link;
+}
+
+body:not(.touch) {
+	a {
+		transition: box-shadow 0.15s ease-in-out;
+		-webkit-tap-highlight-color: rgba(0,0,0,0);
+		&:hover {
+			box-shadow: inset 0px -0.3rem 0px 0px $color-font--link-hover;
+			&, * {
+				color: $color-font--link-hover;
+			}
+		}
+	}
+}
+
+.thin-space {
+	margin: 0 0.07em;
+}
+
+// '/' or '-' (Roles, etc.)
+.separator {
+	margin: 0 0.2em;
+	color: $color-font--note;
+}

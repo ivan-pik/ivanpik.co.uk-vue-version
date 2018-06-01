@@ -1,0 +1,110 @@
+%main-wrapper {
+	max-width: 860px;
+	padding: 0 6.5vw;
+	margin-left: auto;
+	margin-right: auto;
+	@include media-query(min,$bp-full-width) {
+		padding: 0;
+	}
+}
+
+// Icons
+%icon {
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	top: -0.05em;
+	width: 1em;
+	height: 1em;
+	font-size: 1.3335rem; // 32 px - depends on body font size
+	margin-right: 0.3rem;
+}
+
+// Horizontal narrow line
+%separate {
+	&:after {
+		content: "";
+		display: block;
+		background-color: $color-background--highlight;
+		height: 0.2em;
+		width: 3rem;
+		margin: 0.6rem 0 1.6rem 0;
+		@include media-query(min,$bp-small) {
+			margin: 1rem 0 2rem 0;
+		}
+	}
+}
+
+%font-family--body {
+	font-family: $font-family-body;
+	font-weight: 300;
+}
+
+%font-family--headings {
+	font-family: $font-family-headings;
+	font-weight: 700;
+}
+
+// Vertical spacing is relative to this font-size
+
+%font-size--body {
+	@include fluidSize(16px,24px);
+	line-height: 1.4;
+	@include media-query(min,$bp-full-width) {
+		line-height: 1.6;
+	}
+}
+
+%font-size--h1 {
+	@include fluidSize(21px,63px);
+	line-height: 1.3;
+	letter-spacing: -0.015em;
+	@include media-query(min,$bp-small) {
+		line-height: 1.2;
+	}
+}
+
+%font-size--h2 {
+	@include fluidSize(18px,46px);
+	line-height: 1.3;
+}
+
+%font-size--small {
+	@include fluidSize(14px,20px);
+	line-height: 1.6;
+	@include media-query(max,$bp-small) {
+		line-height: 1.4;
+	}
+}
+
+%font-size--x-small {
+	@include fluidSize(11px,16px);
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 1.6;
+	letter-spacing: 0.03em;
+	@include media-query(max,$bp-small) {
+		line-height: 1.4;
+	}
+}
+
+%body-paragraph {
+	margin-bottom: 1.4rem;
+	@include media-query(min,$bp-small) {
+		margin-bottom: 1.6rem;
+	}
+	&:last-of-type {
+		margin-bottom: 0;
+	}
+}
+
+// Background Heading
+%highlight {
+	display: inline-block;
+	color: $color-font--highlight;
+	background-color: $color-background--highlight;
+	padding: 0.3em 0.6em 0.35em;
+	@include media-query(min,$bp-small) {
+		padding: 0.2em 0.6em 0.25em;
+	}
+}

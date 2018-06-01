@@ -1,0 +1,844 @@
+[
+	{
+		"order": 0,
+		"name": "WeatherPlane.com",
+		"url": "weatherplane-com",
+		"pageTitle": "@todo",
+		"client": "Personal Project",
+		"clientDescription": "",
+		"role": "UI Design / Front-End Development / Back-End Development",
+		"shortDescription": "@todo",
+		"description": "@todo Doing some cool shit",
+		"items": []
+	},
+	{
+		"order": 1,
+		"name": "bluCommerce",
+		"url": "blubolt-ecommerce",
+		"pageTitle": "@todo",
+		"client": "blubolt",
+		"clientDescription": "eCommerce platform provider / eCommerce agency",
+		"role": "Senior Front-End Developer / Platform Engineer",
+		"shortDescription": "@todo",
+		"description": "@todo",
+		"items": []
+	},
+	{
+		"order": 2,
+		"name": "Basekit Templates",
+		"url": "basekit-templates",
+		"pageTitle": "Basekit Templates",
+		"client": "BaseKit",
+		"clientDescription":
+			"Online web builder that makes it easy to create responsive sites for everyone",
+		"role": "Web Design / Front-End Development",
+		"shortDescription": "",
+		"description":
+			"<p>I was hired by BaseKit to join their design team that creates and maintains templates for BaseKit website&nbsp;builder.</p>\r\n  <p>Those templates must work with every widget that BaseKit website builder offers, ranging from a text content, twitter feed, contact form, image slideshow or gallery. There are also blog, store and restaurant menu modules. All those widgets and modules are designed and built responsively and they must cater for various content and for many user&nbsp;settings.</p>\r\n  <p>It was challenging to build website templates which didn’t appear broken or badly designed with some many settings variables and various user content. For example a company name length can vary from a few characters to several words. The logo could be either a small icon, a large banner or set to be hidden. Embedded widgets in the template (typically in the headers and footers) can be hidden or swapped with different type by the user and nothing must break. Also colours and font sizes and font families can be changed by the user. Everything works responsively from a large desktop screen to a small mobile screen<span class=\"thin-space\">–</span>sometimes that’s very tricky, it’s much easier to design and build responsive sites where the content is known beforehand.</p>\r\n  <p>Every template design was discussed in the team and iterated to make sure the visual quality meets the company standards and that the theme fits our typical users and their needs. We also had a strict review process in place within the team even before the template was passed to a QA team. Templates were tested for compatibility with the editor functionality and for various user content. Browser and device testing were conducted either on virtual machines or on a range of real devices that were available to&nbsp;us.</p>\r\n  <p>Templates were built with HTML using TWIG template engine, CSS processed with LESS and many UI state changes were accomplished using jQuery. Source code was managed on&nbsp;GitHub.</p>",
+		"items": [
+			{
+				"type": "sub-project",
+				"title": "Facet Template",
+				"description": "Business oriented template",
+				"items": [
+					{
+						"type": "desktop-browser",
+						"image": {
+							"src": "facet_home.png",
+							"width": 1280,
+							"height": 2684,
+							"alt": "Facet Template Homepage"
+						}
+					},
+					{
+						"type": "desktop-browser",
+						"image": {
+							"src": "facet_store.png",
+							"width": 1280,
+							"height": 1152,
+							"alt": "Facet Store Page"
+						}
+					},
+					{
+						"type": "mobile-browser-group",
+						"items": [
+							{
+								"type": "mobile-browser",
+								"image": {
+									"src": "facet_mobile-home.png",
+									"width": 320,
+									"height": 560,
+									"alt": "Facet Template Homepage on mobile"
+								}
+							},
+							{
+								"type": "mobile-browser",
+								"image": {
+									"src": "facet_mobile-feed.png",
+									"width": 320,
+									"height": 560,
+									"alt": "Facet Twiter Feed on Mobile"
+								}
+							},
+							{
+								"type": "mobile-browser",
+								"image": {
+									"src": "facet_mobile-store.png",
+									"width": 320,
+									"height": 560,
+									"alt": "Facet Template Store on Mobile"
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "sub-project",
+				"title": "Zest Template",
+				"description": "E&#8209;commerce oriented website template",
+				"items": [
+					{
+						"type": "desktop-browser",
+						"image": {
+							"src": "zest_store.png",
+							"width": 1280,
+							"height": 823,
+							"alt": "Zest Template Store"
+						}
+					},
+					{
+						"type": "desktop-browser",
+						"image": {
+							"src": "zest_product.png",
+							"width": 1280,
+							"height": 977,
+							"alt": "Zest Template Product Detail"
+						}
+					},
+					{
+						"type": "mobile-browser-group",
+						"items": [
+							{
+								"type": "mobile-browser",
+								"image": {
+									"src": "zest_mobile-store.png",
+									"width": 320,
+									"height": 560,
+									"alt": "Zest Template Store on Mobile"
+								}
+							},
+							{
+								"type": "mobile-browser",
+								"image": {
+									"src": "zest_mobile-product.png",
+									"width": 320,
+									"height": 560,
+									"alt": "Zest Template Product Detail on Mobile"
+								}
+							},
+							{
+								"type": "mobile-browser",
+								"image": {
+									"src": "zest_mobile-basket-summary.png",
+									"width": 320,
+									"height": 560,
+									"alt": "Zest Tempalte Basket on Mobile"
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "sub-project",
+				"title": "Timeline Template",
+				"description": "Blog oriented template",
+				"items": [
+					{
+						"type": "desktop-browser",
+						"image": {
+							"src": "timeline_home.png",
+							"width": 1280,
+							"height": 1534,
+							"alt": "Timeline Template Homepage"
+						}
+					},
+					{
+						"type": "desktop-browser",
+						"image": {
+							"src": "timeline_blogpost.png",
+							"width": 1280,
+							"height": 3621,
+							"alt": "Timeline Template Blog Post Page"
+						}
+					},
+					{
+						"type": "mobile-browser-group",
+						"items": [
+							{
+								"type": "mobile-browser",
+								"image": {
+									"src": "timeline_mobile-home.png",
+									"width": 320,
+									"height": 560,
+									"alt": "Timeline Template Homepage on Mobile"
+								}
+							},
+							{
+								"type": "mobile-browser",
+								"image": {
+									"src": "timeline_mobile-blogpost.png",
+									"width": 320,
+									"height": 560,
+									"alt": "Timeline Template Blog Post Page on Mobile"
+								}
+							},
+							{
+								"type": "mobile-browser",
+								"image": {
+									"src": "timeline_mobile-gallery.png",
+									"width": 320,
+									"height": 560,
+									"alt": "Timeline Template Gallery Widget on Mobile"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"order": 3,
+		"name": "Tuesday Events",
+		"url": "tuesday-events",
+		"pageTitle": "Tuesday Events",
+		"client": "TUESDAY Business Network",
+		"clientDescription":
+			"Organises conferences and events for technology entrepreneurs, investors and IT professionals",
+		"role": "Web Design / Front-End Development / Logo Design / Brand Design",
+		"shortDescription": "",
+		"description":
+			"<p>TUESDAY Business Network is a part of Internet Info company where I was the sole web designer and front‑end developer. My resources were very limited and we needed a system to create event sites very fast and with minimal effort. Sometimes the event logo and website needed to be designed and launched within only 2&nbsp;days.</p>\r\n  <p>We already had in‑house developed CMS which developers extended to manage events: schedules, speakers, presentation download, registration management&nbsp;etc.</p>\r\n  <p>It would have been time‑consuming to create HTML templates for every event website so I designed a system where the event sites were built entirely via CMS. Each event site was built from predefined pages and components such as an intro, schedule, speakers, gallery, registration form etc.  These predefined pages and components were based on shared HTML templates, custom CSS framework and image&nbsp;assets.</p>\r\n  <p>Some components could be set to display as separate pages or in‑line on the home page. It was therefore possible to build either a small one‑page event site or larger multiple‑page site without having to write a single line of&nbsp;HTML.</p>\r\n  <p>Low‑budget events could rely on default visual theme and could be launched in matter of  hours. Custom design for larger events could be achieved only by providing extra CSS above the base framework<span class=\"thin-space\">–</span>making it possible to create a logo, a simple branding and a web design and to launch the event site within 2<span class=\"thin-space\">–</span>3&nbsp;days. This system has been providing huge savings in time and&nbsp;money.</p>",
+		"items": [
+			{
+				"type": "sub-project",
+				"title": "In&#8209;Comms Forum",
+				"description":
+					"A forum about internal communications within&nbsp;organisations.",
+				"role": "Logo Design&nbsp;/ Web Design&nbsp;/ Front&#8209;End Development",
+				"items": [
+					{
+						"type": "desktop-browser",
+						"image": {
+							"src": "in-comms-forum_speakers.png",
+							"width": 1100,
+							"height": 1884,
+							"alt": "In-Comms Forum Speakers Page"
+						}
+					}
+				]
+			},
+			{
+				"type": "sub-project",
+				"title": "Internet Advertising Conference",
+				"description":
+					"A conference specialised on the internet advertising&nbsp;market.",
+				"role": "Web Design&nbsp;/ Front&#8209;End Development",
+				"items": [
+					{
+						"type": "desktop-browser",
+						"image": {
+							"src": "iac_home.png",
+							"width": 1100,
+							"height": 1594,
+							"alt": "Iac Homepage"
+						}
+					}
+				]
+			},
+			{
+				"type": "sub-project",
+				"title": "Content First",
+				"description":
+					"A conference about creating and managing content on the web.",
+				"role": "Logo Design&nbsp;/ Web Design&nbsp;/ Front&#8209;End Development",
+				"items": [
+					{
+						"type": "desktop-browser",
+						"image": {
+							"src": "content-first_home.png",
+							"width": 1100,
+							"height": 1882,
+							"alt": "ContentFirst Homepage"
+						}
+					}
+				]
+			},
+			{
+				"type": "sub-project",
+				"title": "UX Masterclass Prague",
+				"description": "A conference about newest UX and business&nbsp;trends.",
+				"role": "Web Design&nbsp;/ Front&#8209;End Development",
+				"items": [
+					{
+						"type": "desktop-browser",
+						"image": {
+							"src": "ux-masterclass_schedule.png",
+							"width": 1100,
+							"height": 3337,
+							"alt": "UX Masterclass Prague Schedule Page"
+						}
+					}
+				]
+			}
+		]
+	},
+	{
+		"order": 2,
+		"name": "Dobry Web",
+		"url": "dobry-web",
+		"pageTitle": "Dobry Web",
+		"client": "Dobry Web",
+		"clientDescription":
+			"Consultation agency for web usability, user experience, copywriting, online analytics and marketing",
+		"role": "Web Design / Visual Identity",
+		"shortDescription": "Business website for an online consultancy agency",
+		"description":
+			"<p>For this project I was tasked with designing the visual aspect of the site based on provided wireframes. We worked closely together making sure of achieving a correct visual hierarchy and that call-to-action elements were designed to lead the visitors to order the desired&nbsp;services.</p>",
+		"items": [
+			{
+				"type": "desktop-browser",
+				"description":
+					"The home page introduces the company and provides quick links to its&nbsp;services.",
+				"image": {
+					"src": "dobry-web_home.png",
+					"width": 1100,
+					"height": 671,
+					"alt": "Dobry Web Homepage"
+				}
+			},
+			{
+				"type": "desktop-browser",
+				"description":
+					"Lectures and workshops section. The &ldquo;pinboard&rdquo; features speakers and offers navigation to specific areas of&nbsp;lectures.",
+				"image": {
+					"src": "dobry-web-skoleni.png",
+					"width": 1100,
+					"height": 1056,
+					"alt": "Dobry Web Workshops Page"
+				}
+			},
+			{
+				"type": "image",
+				"description":
+					"A basic visual identity set was created to match up with the new website&nbsp;design.",
+				"image": {
+					"src": "dobry-web-visual-identity.png",
+					"width": 1100,
+					"height": 821,
+					"alt": "Dobry Web Visual Identity"
+				}
+			},
+			{
+				"type": "image",
+				"description":
+					"Graphical ads were designed to promote the company’s lectures. The design was chosen to be rather unobtrusive, looking more as a web&nbsp;UI&ndash;using simple text, iconography and links and buttons as click-to-action elements to improve click&nbsp;rate.",
+				"image": {
+					"src": "dobry-web-ads.png",
+					"width": 1100,
+					"height": 512,
+					"alt": "Dobry Web Web Ads"
+				}
+			}
+		]
+	},
+	{
+		"order": 3,
+		"name": "Internet Info Magazines",
+		"url": "internet-info-magazines",
+		"pageTitle": "Internet Info Magazines",
+		"client": "Internet Info",
+		"clientDescription":
+			"Czech on‑line publishing company with a portfolio of IT, business, finance and lifestyle web magazines",
+		"role": "Web Design / Front-End Development / Graphic Design",
+		"shortDescription": "",
+		"description":
+			"<p>I was hired by Internet Info where I extended their developer team as a graphic designer, web designer and front‑end developer. I was therefore responsible for every visual work in the company such as print and online ads, logo designs or basic illustrations but the main focus laid on web design and front‑end development.</p>\r\n  <p>When I started in the company I was mostly creating visual layers on top of wireframes that were designed by a company’s business division focused on online consultation. I was involved in our projects from the very beginning of their creation contributing to improve usability and user experience. My growing interest in those areas helped me develop my role so that I became a web designer of all stages of our projects: initial planning, wireframing, user-flows and visual&nbsp;design.</p>\r\n  <p>Unlike print publishing where focus on content has been obvious, online publishing still needed to get there. When I joined the company, our oldest online magazine reached it’s 10th birthday. Although it meant that the publisher had been providing great content for many years and retained a huge user base, our online magazines suffered from archaic web techniques and approaches. Our magazines sites were rather complicated<span class=\"thin-space\">–</span>there were too many features and distractful side content. It was the time when clean and simple pages were considered as something rather wrong, lacking features, there was a tendency that every site had to look “portal”  like. I invested lot of energy and effort into making our magazines simpler and focused on our users/readers. Content was put in the first place, feature bloat was eliminated, layouts were much simplified and readability was greatly improved. I definitely contributed to the company’s shift towards more design-thinking and new features and projects were much better considered and development became more&nbsp;focused.</p>\r\n  <p>For our small dev team to be able to maintain our range of project, efficiency in terms of reusable code and assets was a key to meet company’s plans and to reduce maintenance costs. From my front‑end perspective it meant that HTML code, CSS and image assets for components and pages were shared across projects from one source where possible. Code was managed via Mercurial versioning&nbsp;system.</p>\r\n",
+		"items": [
+			{
+				"type": "sub-project",
+				"title": "Vitalia.cz",
+				"description":
+					"A magazine covering the topics of healthy life style and&nbsp;nutrition.",
+				"role": "Logo Design&nbsp;/ Web Design&nbsp;/ Front-End Development",
+				"items": [
+					{
+						"type": "desktop-browser",
+						"description":
+							"The magazine’s home page features large photos which enhances the magazine’s lifestyle look and “relaxed”&nbsp;experience.",
+						"image": {
+							"src": "vitalia_home.jpg",
+							"width": 1100,
+							"height": 1738,
+							"alt": "Vitalia Homepage"
+						}
+					},
+					{
+						"type": "desktop-browser",
+						"description":
+							"The article page provides links to other recently published articles which removes the necessity of returning to the home page to read other&nbsp;articles.",
+						"image": {
+							"src": "vitalia_article.jpg",
+							"width": 1100,
+							"height": 3155,
+							"alt": "Vitalia Article Page"
+						}
+					}
+				]
+			},
+			{
+				"type": "sub-project",
+				"title": "Lupa.cz",
+				"description":
+					"A magazine concentrating predominantly on the Czech online scene, e&#8209;commerce, telecommunications, online media and&nbsp;marketing.",
+				"role": "Logo Design&nbsp;/ Web Design&nbsp;/ Front-End Development",
+				"items": [
+					{
+						"type": "desktop-browser",
+						"description":
+							"The magazine’s home page provides a rather compact list of articles which doesn’t follow today’s design trends but users appreciated that they could quickly scan the content which was published during the&nbsp;day.",
+						"image": {
+							"src": "lupa-home.png",
+							"width": 1100,
+							"height": 1188,
+							"alt": "Lupa Homepage"
+						}
+					},
+					{
+						"type": "desktop-browser",
+						"description":
+							"An article view also provides links to featured topics and recently published&nbsp;content.",
+						"image": {
+							"src": "lupa_article.png",
+							"width": 1100,
+							"height": 800,
+							"alt": "Lupa Article Page"
+						}
+					},
+					{
+						"type": "mobile-browser-group",
+						"description":
+							"The arrival of smartphones and more accessible mobile internet connections led to an increased number of mobile visitors to our websites. We decided to create separate mobile versions of our magazines which were stripped from unnecessary content, image and code assets and advertising, especially because at the time the Czech mobile operator's strict fair use policies and limited high-speed mobile connection coverage. The separate mobile version was data-light and needed only 4 HTTP requests to&nbsp;display.",
+						"items": [
+							{
+								"type": "mobile-browser",
+								"description": "Articles list",
+								"image": {
+									"src": "lupa_mobile-articles.png",
+									"width": 320,
+									"height": 568,
+									"alt": "Lupa Article List on Mobile"
+								}
+							},
+							{
+								"type": "mobile-browser",
+								"description": "Article comments",
+								"image": {
+									"src": "lupa_mobile-comments.png",
+									"width": 320,
+									"height": 568,
+									"alt": "Lupa Comments on Mobile"
+								}
+							},
+							{
+								"type": "mobile-browser",
+								"description": "Image gallery",
+								"image": {
+									"src": "lupa_mobile-gallery.png",
+									"width": 320,
+									"height": 568,
+									"alt": "Lupa Gallery on Mobile"
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "sub-project",
+				"title": "DigiRoom.cz",
+				"description": "A magazine about smart-home&nbsp;technologies.",
+				"role":
+					"Logo Design&nbsp;/ Web Design&nbsp;/ Icon Design&nbsp;/ Front-End Development",
+				"items": [
+					{
+						"type": "desktop-browser",
+						"description":
+							"The magazine’s audience were considered as readers who wants to accomplish some specific goals to improve their homes with smart technology therefore links to the main topics were introduced on the top of the&nbsp;page.",
+						"image": {
+							"src": "digiroom_home.png",
+							"width": 1100,
+							"height": 958,
+							"alt": "DigiRoom Homepage"
+						}
+					}
+				]
+			},
+			{
+				"type": "sub-project",
+				"title": "Podnikatel.cz",
+				"description":
+					"A magazine for freelancers, businesses management, start-ups and those who are considering establishing their own&nbsp;business.",
+				"role": "Logo Design&nbsp;/ Web Design&nbsp;/ Front-End Development",
+				"items": [
+					{
+						"type": "desktop-browser",
+						"description":
+							"One of the magazine’s main-topic sections. On the top there are links to the most important information, followed by links to useful laws, forms or calculators for the current section&nbsp;content.",
+						"image": {
+							"src": "podnikatel_section.png",
+							"width": 1100,
+							"height": 1048,
+							"alt": "Podnikatel Main Section Page"
+						}
+					}
+				]
+			},
+			{
+				"type": "sub-project",
+				"title": "Start.Podnikatel.cz",
+				"description":
+					"A microsite which provides practical step by step instructions for launching a business. Each step provides brief information about the current topic and provides links to the main server Podnikatel.cz for more specialised&nbsp;content.",
+				"role":
+					"Logo Design&nbsp;/ Illustration&nbsp;/ Web Design&nbsp;/ Front-End Development",
+				"items": [
+					{
+						"type": "desktop-browser",
+						"description":
+							"The steps navigation is designed for the site to be used as a quick reference&nbsp;guide.",
+						"image": {
+							"src": "start-podnikatel_step.png",
+							"width": 1100,
+							"height": 945,
+							"alt": "Start.Podnikatel.cz  One step"
+						}
+					},
+					{
+						"type": "desktop-browser",
+						"description": "Links to all steps can be viewed as&nbsp;well.",
+						"image": {
+							"src": "start-podnikatel_steps.png",
+							"width": 1100,
+							"height": 976,
+							"alt": "Start.Podnikatel.cz Steps Navigation"
+						}
+					},
+					{
+						"type": "mobile-browser",
+						"image": {
+							"src": "start-podnikatel_mobile-steps.png",
+							"width": 320,
+							"height": 616,
+							"alt": "Start.Podnikatel.cz Steps Navigaiton on Mobile"
+						}
+					}
+				]
+			},
+			{
+				"type": "sub-project",
+				"title": "Mesec.cz",
+				"description":
+					"Mesec.cz is a magazine focused on personal finance, investments and capital&nbsp;markets.",
+				"role": "Web Design&nbsp;/ Logo Design&nbsp;/ Front-End Development",
+				"items": [
+					{
+						"type": "desktop-browser",
+						"description":
+							"The magazine’s home page views recently published articles, featured topics and tips, currency and stocks widgets. The top navigation leads to different financial&nbsp;section.",
+						"image": {
+							"src": "mesec_home.png",
+							"width": 1100,
+							"height": 2424,
+							"alt": "Mesec.cz Homepage"
+						}
+					},
+					{
+						"type": "desktop-browser",
+						"description":
+							"Each financial section (in this preview it’s “insurance”) displays navigation to specific&nbsp;products.",
+						"image": {
+							"src": "mesec_section.png",
+							"width": 1100,
+							"height": 800,
+							"alt": "Mesec.cz Section"
+						}
+					},
+					{
+						"type": "desktop-browser",
+						"description":
+							"In the specific product section (in this preview it’s &ldquo;car insurance&rdquo;) there is a comparison table, articles about the current product and the main CTA element is to lead users to a market comparison service where products can be obtained via affiliated&nbsp;partners.",
+						"image": {
+							"src": "mesec_subsection.png",
+							"width": 1100,
+							"height": 763,
+							"alt": "Mesec.cz Sub Section"
+						}
+					}
+				]
+			},
+			{
+				"type": "sub-project",
+				"title": "Prodej.Mesec.cz",
+				"description":
+					"A service which offers market comparison of various insurance and financial products and allows obtaining products of affiliated&nbsp;partners.",
+				"role": "Web Design&nbsp;/ Logo Design&nbsp;/ Front-End Development",
+				"items": [
+					{
+						"type": "desktop-browser",
+						"description":
+							"The home page hero is changed according to the season or promotional offers. Below are links to the most popular&nbsp;products.",
+						"image": {
+							"src": "prodej-mesec_home.png",
+							"width": 1100,
+							"height": 1052,
+							"alt": "Prodej.Mesec.cz Homepage"
+						}
+					},
+					{
+						"type": "desktop-browser",
+						"description":
+							"Each category of financial products offers a comparison based on user’s criteria. Selected products can be immediately obtained via affiliated&nbsp;partners.",
+						"image": {
+							"src": "prodej-mesec_section.png",
+							"width": 1100,
+							"height": 1359,
+							"alt": "Prodej.Mesec.cz Main Section"
+						}
+					}
+				]
+			}
+		]
+	},
+	{
+		"order": 4,
+		"name": "ExperienceU",
+		"url": "experienceu",
+		"pageTitle": "ExperienceU",
+		"client": "ExperienceU",
+		"clientDescription": "A division of Dobry Web company focusing purely on UX",
+		"role": "Web Design / Front‑End Development / Visual Identity",
+		"shortDescription": "",
+		"description":
+			"<p>My client acquired a user experience agency ExperienceU and they approached me to design a new website based on their wire‑frames and to provide front‑end development. The website’s goal was straightforward: present spectrum of offered UX disciplines, spark interest in potential clients and get them in touch. I also simplified the existing logo and created a basic visual identity&nbsp;set.\r\n</p>",
+		"items": [
+			{
+				"type": "desktop-browser",
+				"description":
+					"The home page is designed to introduce the company and its&nbsp;services.",
+				"image": {
+					"src": "experienceu_home.png",
+					"width": 1100,
+					"height": 2707,
+					"alt": "ExperienceU Homepage"
+				}
+			},
+			{
+				"type": "desktop-browser",
+				"description":
+					"A simple identity set was created. The design is purposely similar to that one of Dobry Web  because ExperienceU is its&nbsp;division.",
+				"image": {
+					"src": "experienceu_visual-identity.png",
+					"width": 1100,
+					"height": 821,
+					"alt": "ExperienceU Visual Identity"
+				}
+			}
+		]
+	},
+	{
+		"order": 5,
+		"name": "Tuesday Business Network",
+		"url": "tuesday-business-network",
+		"pageTitle": "Tuesday Business Network",
+		"client": "TUESDAY Business Network",
+		"clientDescription":
+			"Organises conferences and events for technology entrepreneurs, investors and IT professionals",
+		"role": "Web Design / Front‑End Development",
+		"shortDescription": "",
+		"description":
+			"The main goal of this website was to present events and conferences organised by Tuesday and to allow events’ attendees to manage their user accounts.",
+		"items": [
+			{
+				"type": "desktop-browser",
+				"description":
+					"The home page displays future events and there are quick links to each event’s registration and&nbsp;schedule.",
+				"image": {
+					"src": "tbn_home.png",
+					"width": 1100,
+					"height": 1270,
+					"alt": "Tuesday Business Network Homepage"
+				}
+			},
+			{
+				"type": "desktop-browser",
+				"description": "The list can be switched to a calendar-like&nbsp;view.",
+				"image": {
+					"src": "tbn_calendar.png",
+					"width": 1100,
+					"height": 760,
+					"alt": "Tuesday Business Network Calendar"
+				}
+			},
+			{
+				"type": "desktop-browser",
+				"description":
+					"Once a user registers to an event a new user account is automatically created therefore it isn’t necessary to fill in all the user’s data again for future registrations. When a user is logged-in a panel appears on the top of the page with a remainder of user’s upcoming&nbsp;events.",
+				"image": {
+					"src": "tbn_dashboard.png",
+					"width": 1100,
+					"height": 518,
+					"alt": "Tuesday Business Network Dashboard"
+				}
+			},
+			{
+				"type": "desktop-browser",
+				"description":
+					"Existing users are prompted to log-in during event registration so that they can use the saved credentials in their user profile to avoid filling&#8209;in contact and billing information&nbsp;again.",
+				"image": {
+					"src": "tbn_registration.png",
+					"width": 1100,
+					"height": 914,
+					"alt": "Tuesday Business Network Registration to Event"
+				}
+			},
+			{
+				"type": "mobile-browser-group",
+				"items": [
+					{
+						"type": "mobile-browser",
+						"description": "Events list",
+						"image": {
+							"src": "tbn_events-list.png",
+							"width": 320,
+							"height": 553,
+							"alt": "Tuesday Business Network Event List on Mobile"
+						}
+					},
+					{
+						"type": "mobile-browser",
+						"description": "Events calendar",
+						"image": {
+							"src": "tbn_mobile-calendar.png",
+							"width": 320,
+							"height": 553,
+							"alt": "Tuesday Business Network Calendar on Mobile"
+						}
+					},
+					{
+						"type": "mobile-browser",
+						"description": "User dashboard",
+						"image": {
+							"src": "tbn_mobile-dashboard.png",
+							"width": 320,
+							"height": 553,
+							"alt": "Tuesday Business Network Dashboard on Mobile"
+						}
+					}
+				]
+			}
+		]
+	},
+	{
+		"order": 6,
+		"name": "Internet Info Site",
+		"url": "internet-info-site",
+		"pageTitle": "Internet Info Site",
+		"client": "Internet Info",
+		"clientDescription":
+			"Czech on‑line publishing company with a portfolio of IT, business, finance and lifestyle web magazines",
+		"role": "Web Design / Front-End Development / Visual Identity",
+		"shortDescription": "",
+		"description":
+			"Internet Info needed a new website which would better present their portfolio of online magazines and provide information for advertising partners. The website also needed a new fresh look which would set the company’s visual identity as the website was practically the only point where visual identity of the company could be seen by the public.",
+		"items": [
+			{
+				"type": "desktop-browser",
+				"description":
+					"The landing page provides immediate overview of the company’s business and provides quick links to all important&nbsp;sections.",
+				"image": {
+					"src": "iinfo_home.png",
+					"width": 1100,
+					"height": 715,
+					"alt": "Internet Info Homepage"
+				}
+			},
+			{
+				"type": "desktop-browser",
+				"description":
+					"This is a profile page of one of the online magazines. Charts were used to highlight the project’s success and its demography which is appealing to advertisers. This is further enhanced by the testimonials of high-profile&nbsp;readers.",
+				"image": {
+					"src": "iinfo_magazine.png",
+					"width": 1100,
+					"height": 3397,
+					"alt": "Internet Info Project Detail"
+				}
+			},
+			{
+				"type": "desktop-browser",
+				"description":
+					"Another important part was a section for potential advertisers. A pricing table and a preview of advertising positions for each of the publisher’s magazines were&nbsp;created.",
+				"image": {
+					"src": "iinfo_ads.png",
+					"width": 1100,
+					"height": 966,
+					"alt": "Internet Info Advertising Section"
+				}
+			},
+			{
+				"type": "desktop-browser",
+				"description":
+					"An &ldquo;about&rdquo; page with a pop&#8209;up layer with management’s profile information is a nice way to structure content and to save some screen&nbsp;estate.",
+				"image": {
+					"src": "iinfo_popup.png",
+					"width": 1100,
+					"height": 999,
+					"alt": "Internet Info Site Popup"
+				}
+			},
+			{
+				"type": "mobile-browser-group",
+				"items": [
+					{
+						"type": "mobile-browser",
+						"image": {
+							"src": "iinfo_mobile-our-sites.png",
+							"width": 320,
+							"height": 568,
+							"alt": "Internet Info Projects on Mobile"
+						}
+					},
+					{
+						"type": "mobile-browser",
+						"image": {
+							"src": "iinfo_mobile-magazine.png",
+							"width": 320,
+							"height": 568,
+							"alt": "Internet Info Project Detail on Mobile"
+						}
+					},
+					{
+						"type": "mobile-browser",
+						"image": {
+							"src": "iinfo_mobile-navigation.png",
+							"width": 320,
+							"height": 568,
+							"alt": "Internet Info Mobile Navigation"
+						}
+					}
+				]
+			}
+		]
+	}
+]

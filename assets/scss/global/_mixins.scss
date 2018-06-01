@@ -1,0 +1,89 @@
+@mixin media-query($way,$width) {
+  @media screen and (#{$way}-width: $width) {
+    @content;
+  }
+}
+
+// -----------------------------------------------------------------
+// Fluid Font Sizes Calculations
+// Emulates "min-font-size" and "max-font-size"
+// -----------------------------------------------------------------
+
+@function calculateBreakPoint($min-size,$vw) {
+    $a: $min-size/1px; // Strip unit
+    $bpSize: $a/$vw*100;
+    @return $bpSize+px;
+}
+
+@function calculateVW($font-size) {
+    $a: ($bp-full-width/1px) * 0.01; // Strip unit
+    $vwSize: ($font-size/1px)/$a;
+    @return $vwSize;
+}
+
+// fluidSize(minSize/maxSize) in PX
+@mixin fluidSize($min-size, $max-size) {
+  $vwSize: calculateVW($max-size);
+  // Set Minimum Font Size
+  font-size: $min-size;
+  // Set Fluid Font Size and Breakpoint value
+  @media screen and (min-width: calculateBreakPoint($min-size,$vwSize)) {
+    font-size: $vwSize+vw;
+  }
+  // Set Maximum Font Size
+  @media screen and (min-width: $bp-full-width) {
+    font-size: $max-size;
+  }
+}
+
+
+
+
+// Arrow Icon
+@mixin cssArrow() {
+  $arrow-color: $color-font--link;
+  $arrow-color-hover: $color-font--link-hover;
+  $arrow-size: 20px;
+  $arrow-border: 2px;
+
+  &:after, &:before {
+    transition: opacity 0.15s ease-in-out;
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+  }
+
+  // '>' Part
+  &:before {
+    top: 50%;
+    width: $arrow-size;
+    height: $arrow-size;
+    transform-origin: 50% 50%;
+    transform: translate(-0.15em, -($arrow-size / 2)) rotate(45deg);
+    box-shadow: inset -#{$arrow-border} $arrow-border 0 0 $arrow-color;
+    @include media-query(max,$bp-small) {
+      transform: translate(0, -($arrow-size / 2)) rotate(45deg) scale(0.5);
+    }
+  }
+  // '-' Part
+  &:after {
+    top: 50%;
+    width: $arrow-size * 1.3;
+    height: $arrow-border;
+    transform: translate(-0.1em, -($arrow-border*0.5));
+    background-color: $arrow-color;
+    @include media-query(max,$bp-small) {
+      display: none;
+    }
+  }
+
+  &:hover {
+    &:before {
+      box-shadow: inset -#{$arrow-border} $arrow-border 0 0 $arrow-color-hover;
+    }
+    &:after {
+      background-color: $arrow-color-hover;
+    }
+  }
+}

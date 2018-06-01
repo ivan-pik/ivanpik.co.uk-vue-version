@@ -1,0 +1,41 @@
+// -----------------------------------------------------------------
+// Media Queries Breakpoints
+// -----------------------------------------------------------------
+
+$bp-full-width: 980px; // When layout changes from centered to full width
+$bp-small: 550px; // Mobile screens
+
+// -----------------------------------------------------------------
+// Font Settings
+// -----------------------------------------------------------------
+
+$font-family-headings: "soleil",sans-serif;
+$font-family-body: "soleil",sans-serif;
+
+// -----------------------------------------------------------------
+// Colors
+// -----------------------------------------------------------------
+
+// Background
+$color-background--page: #fff;
+$color-background--highlight: #e55407;
+$color-background--frame: #21282F;
+
+// Borders
+$color-border: #e55407;
+$color-border--projects-list: #D9DDE0;
+
+// Main Content
+$color-font--body: #333F4C;
+$color-font--highlight: #fff;
+$color-font--link: #e55407;
+$color-font--link-hover: #e55407;
+$color-font--note: #ACB1B7;
+
+// -----------------------------------------------------------------
+// Transition Timings
+// -----------------------------------------------------------------
+
+// Timing (needs to be in sync with JS)
+$fade-in-time: 0.1s;
+$fade-out-time: 0.1s;

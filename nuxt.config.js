@@ -1,13 +1,10 @@
 /* nuxt.config.js */
 // only add `router.base = '/<repository-name>/'` if `DEPLOY_ENV` is `GH_PAGES`
 const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
-  router: {
     base: '/ivanpik.co.uk-vue-version/'
-  }
 } : {}
 
 module.exports = {
-  ...routerBase,
   head: {
     title: "Ivan Pik - Front-End Developer",
     meta: [
@@ -34,6 +31,7 @@ module.exports = {
   ],
   css: [{ src: "~assets/scss/main.scss", lang: "scss" }],
   router: {
+    ...routerBase,
     scrollBehavior: function(to, from, savedPosition) {
       let top =
         document.querySelector("#top").getBoundingClientRect().top +

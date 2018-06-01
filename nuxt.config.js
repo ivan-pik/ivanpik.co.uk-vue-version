@@ -41,7 +41,6 @@ module.exports = {
 
       if (from.name != "project-id" && to.name == "project-id") {
         setTimeout(function() {
-          console.log("top", top)
           window.scrollTo({
             top: top,
             behavior: "smooth"
@@ -49,8 +48,6 @@ module.exports = {
         }, 0)
       } else if (from.name == "project-id" && to.name == "project-id") {
         setTimeout(function() {
-          console.log("top", top)
-          console.log("savedPosition", savedPosition)
           window.scrollTo({
             top: savedPosition ? savedPosition.y : top
           })

@@ -53,11 +53,21 @@ module.exports = {
       }
     }
   },
-
-  /*
-	** Customize the progress bar color
-	*/
   loading: { color: "#e55407" },
+  generate: {
+    routes: [
+      // @todo: read this from my projects.json file
+      'project/weatherplane-com',
+      'project/blubolt-ecommerce',
+      'project/basekit-templates',
+      'project/tuesday-events',
+      'project/dobry-web',
+      'project/internet-info-magazines',
+      'project/experienceu',
+      'project/tuesday-business-network',
+      'project/internet-info-site'
+    ]
+  },
   /*
 	** Build configuration
 	*/

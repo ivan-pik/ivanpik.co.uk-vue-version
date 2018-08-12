@@ -1,9 +1,8 @@
 <template>
   <figcaption
     class="project-image-caption"
-  >
-    {{ text }}	
-  </figcaption>
+    v-html="text"
+  />
 </template>
 
 <script>
